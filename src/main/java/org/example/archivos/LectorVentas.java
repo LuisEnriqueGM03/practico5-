@@ -1,3 +1,4 @@
+package org.example.archivos;
 
 import org.example.objetos.ListaDoble;
 import org.example.objetos.Venta;
@@ -34,7 +35,7 @@ public class LectorVentas {
         return ventas;
     }
     public static void main(String[] args) {
-        File archivo = new File("D:\\Users new\\Escritorio\\ventas.txt");
+        File archivo = new File("C:\\Users\\Luis Gil\\Documents\\practico\\ventas.txt");
         LectorVentas lectorVentas = new LectorVentas(archivo);
         try {
             ListaDoble<Venta> ventas = lectorVentas.leer();
