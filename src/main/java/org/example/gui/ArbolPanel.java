@@ -26,9 +26,10 @@ public class ArbolPanel extends JPanel implements MouseListener {
         super.paintComponent(g);
         dibujo.dibujar(g);
     }
+
     @Override
     public Dimension getPreferredSize() {
-        return new Dimension(600,500);
+        return new Dimension(600, 500);
     }
 
     @Override
@@ -44,7 +45,7 @@ public class ArbolPanel extends JPanel implements MouseListener {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     // Acción cuando se presiona el botón "Ver Salir"
-                    System.out.println("Ver Salir");
+                    System.out.println("Salir");
                 }
             });
 
@@ -68,17 +69,23 @@ public class ArbolPanel extends JPanel implements MouseListener {
         }
     }
 
-
-    // Implementa los demás métodos de MouseListener, aunque no los utilicemos
     @Override
-    public void mousePressed(MouseEvent e) {}
+    public void mousePressed(MouseEvent e) {
 
-    @Override
-    public void mouseReleased(MouseEvent e) {}
+    }
 
     @Override
-    public void mouseEntered(MouseEvent e) {}
+    public void mouseReleased(MouseEvent e) {
+
+    }
 
     @Override
-    public void mouseExited(MouseEvent e) {}
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
+    }
 }

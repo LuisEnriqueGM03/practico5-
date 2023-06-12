@@ -23,7 +23,7 @@ public class MenuFrame extends JFrame {
         nombreLabel.setFont(nombreLabel.getFont().deriveFont(24.0f));
         add(nombreLabel, BorderLayout.CENTER);
 
-        verSalirButton = new JButton("Ver Salir");
+        verSalirButton = new JButton("Salir");
         verInfoButton = new JButton("Ver Info");
         ventaButton = new JButton("Venta");
 
