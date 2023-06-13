@@ -15,7 +15,7 @@ public class Venta {
         return nombre;
     }
 
-    public int getCantidad() {
+    public  int getCantidad() {
         return cantidad;
     }
 
